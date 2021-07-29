@@ -1,19 +1,8 @@
 # Usage
 
-> :warning: Depending on your environment, the code may require
-> `regeneratorRuntime` to be defined, for instance by importing
-> [regenerator-runtime/runtime](https://www.npmjs.com/package/regenerator-runtime).
-
-First, require the polyfill at the entry point of your application
+Import the library where needed
 ```js
-await import('regenerator-runtime/runtime.js');
+const {realloc} = await import('@array-like/realloc');
 // or
-import 'regenerator-runtime/runtime.js';
-```
-
-Then, import the library where needed
-```js
-const realloc = await import('@array-like/realloc');
-// or
-import * as realloc from '@array-like/realloc';
+import {realloc} from '@array-like/realloc';
 ```
