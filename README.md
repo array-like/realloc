@@ -16,7 +16,7 @@ const b = realloc(a, 200); // 0 1 2 .. 98 99 undefined undefined ...
 
 [![License](https://img.shields.io/github/license/array-like/realloc.svg)](https://raw.githubusercontent.com/array-like/realloc/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@array-like/realloc.svg)](https://www.npmjs.org/package/@array-like/realloc)
-[![Tests](https://img.shields.io/github/workflow/status/array-like/realloc/ci?event=push&label=tests)](https://github.com/array-like/realloc/actions/workflows/ci.yml?query=branch:main)
+[![Tests](https://img.shields.io/github/actions/workflow/status/array-like/realloc/ci.yml?branch=main&event=push&label=tests)](https://github.com/array-like/realloc/actions/workflows/ci.yml?query=branch:main)
 [![Dependencies](https://img.shields.io/librariesio/github/array-like/realloc.svg)](https://github.com/array-like/realloc/network/dependencies)
 [![GitHub issues](https://img.shields.io/github/issues/array-like/realloc.svg)](https://github.com/array-like/realloc/issues)
 [![Downloads](https://img.shields.io/npm/dm/@array-like/realloc.svg)](https://www.npmjs.org/package/@array-like/realloc)
