@@ -1,4 +1,5 @@
 import test from 'ava';
+
 import {alloc} from '@array-like/alloc';
 import {iota} from '@array-like/fill';
 
