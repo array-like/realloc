@@ -2,7 +2,7 @@ import test from 'ava';
 import {alloc} from '@array-like/alloc';
 import {iota} from '@array-like/fill';
 
-import {realloc} from '../../src/index.js';
+import {realloc} from '#module';
 
 test('realloc', (t) => {
 	const m = 1000;
